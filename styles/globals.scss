@@ -1,3 +1,6 @@
+html {
+  font-size: 62.5%;
+}
 html,
 body {
   padding: 0;
@@ -13,4 +16,6 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }

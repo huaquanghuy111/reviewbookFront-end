@@ -1,0 +1,31 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+
+  width: 100%;
+}
+
+.catelogy {
+  ul {
+    list-style-type: none;
+    margin-top: 8px;
+  }
+  li {
+    padding: 8px;
+
+    font-size: 2rem;
+
+    color: #333;
+
+    transition: all 0.5s;
+  }
+  li:hover {
+    color: #f1c23f;
+  }
+  align-items: center;
+}
+
+.main_content {
+  align-items: center;
+}

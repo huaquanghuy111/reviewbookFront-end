@@ -1,0 +1,49 @@
+$header-height: 80px;
+.header {
+  margin-bottom: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: $header-height;
+
+  background-color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  .menu_bookTypes {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    .menu_bookTypes_item {
+      color: #908f99;
+      font-size: 2rem;
+      padding: 0 12px;
+      line-height: $header-height;
+      transition: all 0.5s;
+    }
+    .menu_bookTypes_item:hover {
+      color: #f1c23f;
+    }
+  }
+}
+
+.menu_authenticate {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  .menu_authenticate_signIn,
+  .menu_authenticate_signUp {
+    color: #908f99;
+    font-size: 2rem;
+    padding: 0 12px;
+    line-height: $header-height;
+    transition: all 0.5s;
+  }
+}
+.menu_authenticate_signIn:hover,
+.menu_authenticate_signUp:hover {
+  color: #f1c23f;
+}

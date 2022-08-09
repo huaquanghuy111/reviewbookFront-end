@@ -1,0 +1,48 @@
+$minWidth: 600px;
+$minHeight: 60px;
+.input {
+  display: block;
+  min-width: $minWidth;
+  min-height: $minHeight;
+  border-radius: 2px;
+  border: 1px black;
+
+  margin: 20px;
+  padding: 5px;
+  align-items: center;
+  outline: #4caf50 solid 1px;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+
+  font-size: 1.5rem;
+}
+
+.label {
+  display: block;
+  font-size: 2rem;
+  color: #333;
+  margin-left: 20px;
+}
+
+.btn {
+  margin: 20px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: rgb(128, 128, 21);
+  border: 1px #333;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.subject {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-left: 20px;
+}
+
+.isSave {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  color: #333;
+}

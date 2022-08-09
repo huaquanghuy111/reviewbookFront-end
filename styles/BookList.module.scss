@@ -1,0 +1,26 @@
+.bigText {
+  font-size: 3.5rem;
+  font-weight: 600;
+  margin: 12px;
+  color: #333;
+}
+.title {
+  padding: 12px;
+  margin: 12px 0;
+
+  display: inline-block;
+
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: orange;
+}
+
+.decription {
+  margin: 8px 12px;
+  font-size: 2rem;
+  color: #333;
+}
+.pointer {
+  cursor: pointer;
+}
